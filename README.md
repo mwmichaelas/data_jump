@@ -16,7 +16,7 @@ To run the app
 
 To run the tests
 
-    python -m pytest tests
+    ./test.sh
 
 **TODO**
 - dockerise
