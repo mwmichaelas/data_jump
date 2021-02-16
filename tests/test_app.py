@@ -2,7 +2,10 @@ import pytest
 import requests
 from data_jump.app import app
 import requests_mock
-
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__),os.pardir,"data_jump"))
+import data_jump
 
 class TestApp:
 

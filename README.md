@@ -2,20 +2,26 @@
 
 Python 3.5
 
+**INSTALLATION**
+
+To build
+
+    ./build.sh
+
 **USAGE**
 
 To run the app
 
-    python data_jump/app.py
+    ./run.sh
 
-To test the app
+To run the tests
 
     python -m pytest tests
 
 **TODO**
 - dockerise
-- account for large inputs and edge cases
+- account for other data formats, large inputs and edge cases
 - more error handling
-- 100% code coverage
+- 100% code coverage (including csv, error handling)
 - logging and metrics
 - good documentation

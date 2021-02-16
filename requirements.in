@@ -1,0 +1,9 @@
+pip-chill
+pip-tools
+Flask
+requests
+python-csv
+pandas
+pytest
+coverage
+requests_mock

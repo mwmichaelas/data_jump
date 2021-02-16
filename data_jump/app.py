@@ -1,8 +1,13 @@
+import os
+import sys
+
 from flask import Flask
 from pandas import DataFrame
 
-import app_config as app_config
-from data_processor import DataProcessor
+from data_jump import app_config
+from data_jump.data_processor import DataProcessor
+
+sys.path.append(os.path.join(os.path.dirname(__file__),os.pardir,"data_jump"))
 
 app = Flask(__name__)
 
